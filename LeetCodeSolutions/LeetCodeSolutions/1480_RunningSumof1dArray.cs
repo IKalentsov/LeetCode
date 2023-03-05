@@ -13,25 +13,25 @@
     {
         public static int[] RunningSum(int[] nums)
         {
-            var currentValue = 0;
-            var results = new int[nums.Length];
+            var value = 0;
+            var array = new int[nums.Length];
 
             for (var num = 0; num < nums.Length; num++) 
             {
                 if (num == 0)
                 {
-                    currentValue = nums[num];
-                    results[num] = currentValue;
+                    value = nums[num];
+                    array[num] = value;
 
                     continue;
                 }
 
-                currentValue += nums[num];
+                value += nums[num];
 
-                results[num] = currentValue;
+                array[num] = value;
             }
 
-            return results;
+            return array;
         }
     }
 }
