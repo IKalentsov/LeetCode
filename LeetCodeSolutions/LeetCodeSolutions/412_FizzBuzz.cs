@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeSolutions
+﻿namespace LeetCodeSolutions
 {
     /// <summary>
     /// Given an integer n, return a string array answer 
