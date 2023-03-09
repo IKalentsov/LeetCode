@@ -4,11 +4,6 @@ namespace LeetCodeTests
 {
     public class UT_1480_Running_Sum_of_1d_Array
     {
-        [SetUp]
-        public void Setup()
-        {
-            
-        }
 
         [Test]
         public void TestSet1()
